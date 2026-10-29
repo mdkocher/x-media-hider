@@ -1,0 +1,21 @@
+/* Collapse the media block entirely; the pill takes its place */
+.xmh-hidden {
+  display: none !important;
+}
+
+.xmh-pill {
+  display: inline-flex;
+  align-self: flex-start;
+  margin: 12px 0 4px;
+  padding: 4px 14px;
+  border: 1px solid rgb(83, 100, 113);
+  border-radius: 9999px;
+  background: transparent;
+  color: rgb(29, 155, 240);
+  font: 600 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  cursor: pointer;
+}
+
+.xmh-pill:hover {
+  background: rgba(29, 155, 240, 0.1);
+}

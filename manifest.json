@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "X Media Hider",
+  "version": "1.0.0",
+  "description": "Hides images and videos in your X feed until you click Show.",
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*", "https://twitter.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
